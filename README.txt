@@ -60,5 +60,5 @@ RTT = (packet_delay)*(queue_size)
 
 If we re-run the emulation again then the output results also change like average and standard deviation of fetch time. Network configuration is unpredictable it even changes every second to second if we re-run again, even with a minute change in the network configuration the output differs a lot. 
 
-I observed a lot of changes in the results after re-run again as plotted graphs for RTT, queue delay, and congestion window.
+The RTT, cwnd, and q-length graphs are changing in the result some of which decrease and may increase in the RTT of the packet. The overall delay also changing from the previous.
  
